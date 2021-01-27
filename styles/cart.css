@@ -1,0 +1,21 @@
+#cart {
+	min-height: 430px;
+	background-color: #F2F3F5;
+}
+#cart th {
+	padding: 20px 0px;
+}
+#cart td {
+	padding: 10px 0px;
+}
+#cart img {
+	width: 100px;
+	height: 50px;
+	background-color: white;
+}
+#buy {
+	padding: 10px 25px;
+	background-color: #1ABC9C;
+	color: white;
+	border-radius: 20px;
+}

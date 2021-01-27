@@ -1,0 +1,137 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	outline: none;
+	border: none;
+	background-color: #F2F3F5;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+/** fonts**/
+@font-face {
+	font-family: OpenSans;
+}
+
+#signup {
+	height: 100%;
+	background-image: url(../images/signup.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#signup > div {
+	background-color: transparent;	
+}
+#signup-main {
+	padding: 21px 0px;
+	background-color: rgba(255, 255, 255, 0);	
+}
+
+#signup-form {
+	background-color: white;
+	border-radius: 30px;
+	color: #1ABC9C;
+	box-shadow: 10px 10px 10px rgb(22, 160, 134);
+}
+#signup-form > div:last-child > p {
+	text-align: center;
+}
+#signup-form > div:last-child, #signup-form > div:nth-child(11) {
+	margin-bottom: 0px;
+}
+#signup-form div, h3 , p {
+	background-color: white;
+}
+i {
+	background-color: inherit;
+}
+#signup-form > div {
+	padding: 0;
+	margin: 0px 20px 20px 20px;
+}
+#signup-form > div > div {
+	line-height: 40px;
+}
+#signup-form  h3 {
+	font-size: 30px;
+	padding-top: 20px;
+	font-weight: 600;
+}
+#signup-form input {
+	height: 40px;
+	border-radius: 20px;
+	border: none;
+	background-color: rgba(22, 160, 134, 0.5);
+}
+#signup-form #avatar {
+	background-color:transparent;
+}
+#signup-form #button-signup {
+	height: 57px;
+	width: auto;
+	padding: 10px 70px;
+	border:none;
+	background-color: rgb(22, 160, 134);
+	border-radius: 50px;
+	font-size: 25px;
+	color: white;
+}
+
+#signup-form #button-signup:hover {
+	outline-color: white;
+	background-color:rgb(17, 130, 108);
+}
+#signup-form .or {
+	position: relative;
+	margin: 0px;
+	margin-bottom: 10px;
+}
+#signup-form .or span {
+	position: relative;
+	display: inline-block;
+	padding: 0px 10px;
+	background-color: white;
+	z-index: 1;
+}
+#signup-form .or:after {
+	content: " ";
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background-color: #1ABC9C;;
+}
+#signup-form .or + div > div:first-child {
+	padding: 0px 30px;
+	text-align: right;
+}
+#signup-form .or + div > div:last-child {
+	padding: 0px 30px;
+	text-align: left;
+}
+.btn-icon {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: none;
+	color: white;
+}
+#icon1 {
+	background-color: rgb(60, 87, 147);
+}
+#icon1:hover {
+	background-color: rgb(34, 60, 117);
+}
+#icon2 {
+	background-color: rgb(216, 75, 65);	
+}
+#icon2:hover {
+	background-color: rgb(207, 60, 50);	
+}

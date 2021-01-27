@@ -1,0 +1,11 @@
+#profile td {
+	padding: 10px 0px;
+	text-align: center;
+}
+#profile tr:nth-child(5) td, #profile tr:nth-child(6) td {
+	text-align: left;
+}
+#profile tr:last-child input {
+	padding: 10px 25px;
+	margin: 10px;
+}

@@ -1,0 +1,39 @@
+div {
+	background-color: #F2F3F5;
+}
+
+#add form {
+	background-color: white;	
+	border:1px solid black;
+} 
+td, table {
+	padding: 20px;
+	border: none;
+}
+#add {
+	display: flex;
+	justify-content: center;
+}
+input {
+	height: 30px;
+}
+
+#add tr:last-child td input {
+	padding: 0px 20px;
+	background-color: rgb(22, 160, 134);
+	color: white;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 15px;
+}
+#add tr:last-child td input:hover {
+	background-color:rgb(17, 130, 108);
+}
+select {
+	height: 30px;
+	width: 162px;
+}
+input {
+	display: inline-block;
+}

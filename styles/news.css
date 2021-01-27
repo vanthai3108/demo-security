@@ -1,0 +1,38 @@
+#login-form {
+	margin: 50px 0px;
+	background-color: white;
+	border-radius: 30px;
+	color: #1ABC9C;
+	box-shadow: 10px 10px 10px rgb(22, 160, 134);
+}
+#login-form div, h3 {
+	background-color: white;	
+}
+#login-form > div {
+	padding: 0;
+	margin: 0px 20px 20px 20px;
+}
+#login-form  h3 {
+	font-size: 30px;
+	padding-top: 20px;
+	font-weight: 600;
+}
+#login-form input {
+	height: 40px;
+	border-radius: 20px;
+	border: none;
+	background-color: rgba(22, 160, 134, 0.5);
+}
+#login-form #button-login {
+	padding: 10px 70px;
+	border:none;
+	background-color: rgb(22, 160, 134);
+	border-radius: 50px;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+#login-form #button-login:hover {
+	outline-color: white;
+	background-color:rgb(17, 130, 108);
+}

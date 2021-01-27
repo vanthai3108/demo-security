@@ -1,0 +1,30 @@
+#product {
+	padding-bottom: 20px;
+}
+#sidebar {
+	background-color: rgb(93, 192, 166);
+}
+#sidebar li  {
+	padding: 12px 0px;
+}
+#sidebar li a {
+	color: white;
+	font-size: 20px;
+}
+#sidebar li:hover {
+	background-color: rgb(29, 130, 103);
+}
+#sidebar li:first-child{
+	background-color: rgb(37 140 121);	
+} 
+#sidebar li:first-child a {
+	color: black;
+	font-size: 28px;	
+}
+#sidebar li:first-child:hover {
+	background-color: rgb(29, 130, 103);
+}
+#product-main {
+	border: 4px solid rgb(22, 160, 134);
+	color: rgb(93, 192, 166);
+}

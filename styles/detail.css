@@ -1,0 +1,9 @@
+#product-main {
+	background-color: white;
+}
+#product-main div > p {
+	text-align: left;
+}
+#product-main h3,#product-main img,#product-main h4 {
+	margin: 15px 0px;
+}
